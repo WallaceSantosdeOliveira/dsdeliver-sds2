@@ -1,13 +1,10 @@
 import './App.css';
-import Home from './Home';
-import Navbar from './Navbar';
+import Rotas from './Rotas';
+
 
 function App() {
-  return (
-    <>     
-     <Navbar />
-     <Home />     
-    </>
+  return (       
+     <Rotas />  
   ); 
 }
 

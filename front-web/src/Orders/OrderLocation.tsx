@@ -4,8 +4,8 @@ import AsyncSelect from 'react-select/async';
 import { fetchLocalMapBox } from "../api";
 
 const initialPosition = {
-  lat: -19.8454652,
-  lng: -43.9176637
+  lat: -19.9613322,  
+  lng: -44.1173035
 };
 
 type Place = {
@@ -62,7 +62,7 @@ function OrderLocation() {
           <AsyncSelect
             placeholder="Digite um endereço para entregar o pedido"
             className="filter"
-            loadOptions={loadOptions}
+            //loadOptions={loadOptions}
             onChange={(value) => handleChangeSelect(value as Place)}
           />
         </div>
